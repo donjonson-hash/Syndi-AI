@@ -1,0 +1,37 @@
+# Syndi API Dependencies
+# Python 3.9+
+
+# Web Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# Data Validation
+pydantic==2.5.0
+pydantic[email]==2.5.0
+email-validator==2.1.0
+
+# Database (для будущей интеграции PostgreSQL)
+# sqlalchemy==2.0.23
+# asyncpg==0.29.0
+# alembic==1.12.1
+
+# CORS
+python-multipart==0.0.6
+
+# Utilities
+python-dotenv==1.0.0
+uuid-utils==0.6.0
+
+# LLM Integration
+aiohttp==3.9.1
+openai==1.6.0  # Опционально для OpenAI
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx==0.25.2
+
+# Development
+black==23.11.0
+flake8==6.1.0
+mypy==1.7.1

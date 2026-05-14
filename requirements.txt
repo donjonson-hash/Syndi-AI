@@ -1,4 +1,6 @@
 pytest>=7.4.0
 pytest-asyncio>=0.21.0
 anyio>=4.0.0
-pydantic==1.10.13
+pydantic>=2.0.0
+pydantic-core>=2.14.0
+annotated-types>=0.6.0
